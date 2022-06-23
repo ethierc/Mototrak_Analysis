@@ -57,8 +57,8 @@ else xlim([0 T0])
 
 end    
 
-subplot(2,2,1), plot(mean_peak,'LineWidth',1.5 )
-title(name)                                                                 % name of figure
+
+subplot(2,2,1), plot(mean_peak,'LineWidth',1.5 )                                                               % name of figure
 xlabel('Number of sessions')                                                % names of axes
 ylabel('Mean peak angle (deg)')
 ylim ([0 80])
@@ -72,6 +72,7 @@ plot(last_peak,'LineWidth',1 )
 xlabel('Number of trials')
 ylabel('peak angle (deg)')
 ylim([0 130])
+annotation('textbox', [0.5, 0.9, 0.1, 0.1], 'String', name)
 
 
 if T0<Tf
