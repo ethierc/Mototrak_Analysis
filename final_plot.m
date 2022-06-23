@@ -33,7 +33,7 @@ for i = 1:numfich
 end
 
 
-for i = 1
+for i = 15
     load(fullfile(D(i).folder,D(i).name));
 
     initial_peak = trial_table.peak; 
