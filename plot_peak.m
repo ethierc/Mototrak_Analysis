@@ -38,6 +38,7 @@ end
     xlabel('Number of trials')
     ylabel('peak angle (deg)')
     ylim([0 130])
+    legend('session 15','session')
 
 if T0<Tf
     xlim([0 Tf])

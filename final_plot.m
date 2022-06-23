@@ -72,6 +72,7 @@ plot(last_peak,'LineWidth',1 )
 xlabel('Number of trials')
 ylabel('peak angle (deg)')
 ylim([0 130])
+legend('session 15','session')
 annotation('textbox', [0.5, 0.9, 0.1, 0.1], 'String', name)
 
 
